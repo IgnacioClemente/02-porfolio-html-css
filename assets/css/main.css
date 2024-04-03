@@ -1,0 +1,66 @@
+body{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+header *{
+    display: inline;
+}
+header h2{
+    margin: 0;
+    padding: 6px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    padding: 6px;
+}
+nav ul li:hover{
+    background-color: #555;
+    animation-name: underlineAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    text-decoration-skip-ink: none
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+section{
+    padding: 20px;
+}
+.Welcome{
+    text-align: center;
+}
+.Welcome img{
+    max-width: 25%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.Proyect{
+    margin-bottom: 20px;
+    padding-left: 30px;
+    background-color: #55555546;
+    padding: 20px;
+    border: 1px solid #55555546;
+    border-radius: 8px;
+    text-align: center;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
